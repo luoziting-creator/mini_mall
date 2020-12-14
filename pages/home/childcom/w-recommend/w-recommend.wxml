@@ -1,0 +1,11 @@
+<!--pages/home/childcom/w-recommend/w-recommend.wxml-->
+<!-- <text>pages/home/childcom/w-recommend/w-recommend.wxml</text> -->
+<view class="recommend">
+  <block wx:for="{{recommend}}" wx:key="index">
+    <view class="recommend-item">
+      <!-- 监听图片加载完成的函数  bindload -->
+      <image src="{{item.image}}" bindload="handleImageLoad"></image>
+      <view class="recommend-title">{{item.title}}</view>
+    </view>
+  </block>
+</view>

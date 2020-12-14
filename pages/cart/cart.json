@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "w-bottom-bar":"./w-bottom-bar/w-bottom-bar",
+    "w-cart-list-item":"./w-cart-list-item/w-cart-list-item"
+
+  }
+ 
+
+}

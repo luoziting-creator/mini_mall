@@ -1,0 +1,23 @@
+/* pages/profile/childcom/w-info/w-info.wxss */
+.info {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+
+  font-size: 36rpx;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+}
+.count {
+  color: #ff5777;
+  font-size: 40rpx;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.info-item {
+  width: 33.3%;
+  padding: 20rpx 0;
+  border-right: 1px solid #ccc;
+  
+
+}

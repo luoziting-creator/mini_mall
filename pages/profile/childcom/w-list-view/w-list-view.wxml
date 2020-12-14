@@ -1,0 +1,11 @@
+<!--pages/profile/childcom/w-list-view/w-list-view.wxml-->
+<!-- <text>pages/profile/childcom/w-list-view/w-list-view.wxml</text> -->
+<view class='list-view'>
+  <block wx:for="{{infos}}" wx:key="index">
+    <view class='list-item'>
+      <image src="/assets/images/profile/{{item.icon}}"/>
+      <text>{{item.text}}</text>
+    </view>
+  </block>
+</view>
+

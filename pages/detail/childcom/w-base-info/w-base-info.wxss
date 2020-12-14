@@ -1,0 +1,68 @@
+/* pages/detail/childcom/w-base-info/w-base-info.wxss */
+.base-info {
+  padding: 16rpx;
+  margin-top: 10rpx;
+  border-bottom: 12rpx solid #f2f2f2;
+
+}
+.title {
+  font-size: 32rpx;
+}
+.price-info {
+  margin-top: 16rpx;
+}
+.new-price {
+  color: #ff5777;
+  margin-left: 10rpx;
+  font-weight: 700;
+
+}
+.old-price {
+  text-decoration: line-through;
+  font-size: 28rpx;
+  margin-left: 20rpx;
+
+}
+.discount {
+  position: relative;
+  bottom: 12rpx;
+  background: #ff5777;
+  color: #fff;
+  margin-left: 16rpx;
+  padding: 4rpx 6rpx;
+  font-size: 24rpx;
+  border-radius: 12rpx;
+
+}
+.sell-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24rpx;
+  color: #B7A8A3;
+  margin-top: 40rpx;
+  padding-bottom: 10rpx;
+  border-bottom: 1px solid #F8F8F8;
+
+
+}
+.service {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24rpx;
+  padding: 30rpx 0;
+
+}
+.service .icon {
+ width: 24rpx;
+ height: 24rpx;
+position: relative;
+ top: 2rpx;
+ right: 6rpx;
+ background-color:#fff;
+
+}
+
+.service-item {
+  /* flex: 1; */
+  text-align: center;
+}

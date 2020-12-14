@@ -1,0 +1,62 @@
+/* pages/detail/childcom/w-detail-comment/w-detail-comment.wxss */
+.comment-info {
+  padding: 30rpx 10rpx;
+
+  
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2rpx solid #ECECEC;
+  padding-bottom: 30rpx;
+}
+.more {
+  font-size: 32rpx;
+}
+.comment {
+  color: #333333;
+
+}
+.content{
+  padding: 20rpx 0 30rpx 0;
+
+}
+.user {
+  display: flex;
+}
+.user image {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+ 
+  
+}
+.user text {
+  position: relative;
+  top: 9rpx;
+  margin-left: 20rpx;
+  font-size: 32rpx;
+ 
+
+}
+.comment {
+  margin-top: 19rpx;
+  font-size: 28rpx;
+  color: #777777;
+
+}
+.other-info  {
+  color: #777777;
+  font-size: 24rpx;
+  margin-top: 10rpx;
+
+}
+.other-info .infoStyle {
+  margin-left: 20rpx;
+}
+.picture image {
+  width: 120rpx;
+  max-height: 120rpx;
+  margin: 20rpx;
+  
+}

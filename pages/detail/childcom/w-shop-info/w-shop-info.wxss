@@ -1,0 +1,101 @@
+/* pages/detail/childcom/w-shop-info/w-shop-info.wxss */
+.shop-info {
+  padding: 20rpx 20rpx 10rpx;
+  border-bottom: 6px solid #F8F8F8;
+
+}
+.title-info {
+  display: flex;
+}
+.title-info image {
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 46rpx;
+  vertical-align: middle;
+  border: 1px solid rgba(200,200,200,.6);
+
+}
+.title-info text {
+  margin-left: 20rpx;
+  font-size: 36rpx;
+  position: relative;
+  top: 26rpx;
+}
+.sell-info{
+  display: flex;
+  padding: 30rpx;
+
+}
+.count-info {
+  display: flex;
+  margin: 20rpx 0;
+  border-right: 1px solid rgba(200,200,200,.6);
+  
+}
+.count-item {
+  text-align: center;
+}
+.count-item .count {
+  font-size: 32rpx;
+}
+.count-item .text {
+  font-size: 28rpx;
+}
+.goods-count {
+  padding: 0 30rpx;
+ 
+}
+.grade-info {
+  font-size: 28rpx;
+  padding: 0 20rpx;
+
+}
+.grade-row {
+  display: flex;
+  margin-left: 30rpx;
+  margin-bottom: 20rpx;
+  
+}
+
+.grade-row .name {
+  width: 200rpx;
+
+}
+
+.grade-row  .score {
+  width: 50rpx;
+  margin-right: 20rpx;
+}
+.grade-row  .better {
+  flex: 1;
+  padding: 4rpx 8rpx;
+}
+.goods {
+  color: #ff5777;
+}
+.less {
+  color: #5EA732;
+}
+.good {
+  background-color: #ff5777;
+  color: #fff;
+}
+.lesss {
+  background-color: #5EA732;
+  color: #fff;
+
+}
+.entrance {
+  text-align: center;
+}
+.entrance button::after {
+  border: none;
+}
+.entrance button {
+  padding: 8rpx 100rpx;
+}
+
+
+
+
+

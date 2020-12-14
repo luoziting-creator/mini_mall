@@ -1,0 +1,13 @@
+<!--components/w-goods-item/w-goods-item.wxml-->
+<!-- <text>components/w-goods-item/w-goods-item.wxml</text> -->
+<view class="goods-view" bindtap="itemClick">
+  <image src="{{item.show.img}}" mode="widthFix" class="image" class="goods-image"></image>
+  <view class="item-desc">
+    <view class="title">{{item.title}}</view>
+    <view class="info">
+      <text class="price">￥{{item.price}}</text>
+      <image src="../../assets/images/common/favor.png" class="icon"></image>
+      <text class="collect">{{item.cfav}}</text>
+    </view>
+  </view>
+</view>

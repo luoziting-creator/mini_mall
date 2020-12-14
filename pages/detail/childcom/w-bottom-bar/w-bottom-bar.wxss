@@ -1,0 +1,48 @@
+/* pages/detail/childcom/w-bottom-bar/w-bottom-bar.wxss */
+.bottom-bar {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  height: 120rpx;
+  font-size: 30rpx;
+  box-shadow: 0 -1px 1px rgba(100, 100, 100, .2);
+  background-color: #fff;
+
+}
+
+.bar-item {
+  display: flex;
+  flex: 1;
+}
+
+.left-item,
+.right-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  text-align: center;
+}
+
+.left-item image {
+ padding: 20rpx 0 10rpx 0;
+  width: 44rpx;
+  height: 44rpx;
+}
+.bar-right {
+  line-height: 120rpx;
+  text-align: center;
+  font-size: 32rpx;
+}
+.cart {
+  background-color: #FFE817;
+  
+}
+.buy {
+
+  background-color: #ff5777;
+  color: #fff;
+}

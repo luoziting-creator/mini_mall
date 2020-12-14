@@ -1,0 +1,22 @@
+<!-- 轮播图数据 -->
+<swiper list="{{banners}}"></swiper>
+
+<!-- 推荐数据的展示 -->
+<w-recommend recommend="{{recommends}}" bind:imageLoad="handleImageLoad"></w-recommend>
+
+<!-- 展示本周流行 -->
+<w-popular></w-popular>
+
+<!-- tabcontrol -->
+<w-tab-control titles="{{titles}}" bind:tabClick="handleTabClick" id="tab-control" > </w-tab-control>
+<!-- <w-tab-control titles="{{titles}}" wx:if="{{isTabFix}}"> </w-tab-control> -->
+
+<!--展示商品数据 -->
+<w-goods goods="{{goods[currentType].list}}"></w-goods>
+
+<!-- 点击按钮，回到顶部 -->
+<!-- hidden对于自定义的组件是没有效果的 -->
+<w-backtop wx:if="{{showTop}}"></w-backtop>
+
+
+

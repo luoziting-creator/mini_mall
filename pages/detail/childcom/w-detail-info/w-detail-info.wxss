@@ -1,0 +1,41 @@
+/* pages/detail/childcom/w-detail-info/w-detail-info.wxss */
+.detail-info {
+  padding: 30rpx 0rpx;
+  border-bottom: 12rpx solid #f2f2f2;
+
+}
+.header {
+  font-size: 32rpx;
+}
+.header .line {
+  width: 200rpx;
+  height: 2rpx;
+  background-color: #c8c8c8;
+  margin-bottom: 30rpx;
+  position: relative;
+}
+.header .end {
+  float: right;
+  margin-top: 30rpx;
+
+  border-bottom: 1px solid #c8c8c8;
+}
+.header .start::before , .header .end::after {
+  content: '';
+  position: absolute;
+  width: 10rpx;
+  height: 10rpx;
+  background-color: #000;
+}
+.header .start::before {
+  bottom: 0;
+}
+.header .end::after {
+  bottom: 0;
+  right: 0;
+}
+.content-desc {
+  font-size: 32rpx;
+  margin: 40rpx 0 20rpx 0;
+}
+

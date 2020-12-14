@@ -1,0 +1,21 @@
+<!--pages/detail/childcom/w-detail-info/w-detail-info.wxml-->
+<!-- <text>pages/detail/childcom/w-detail-info/w-detail-info.wxml</text> -->
+<view class="detail-info">
+  <view class="header">
+    <view class="start line"></view>
+    <view >{{detailInfo.desc}}</view>
+    <view class="end line"></view>
+  </view>
+  <view class="content">
+    <block wx:for="{{detailInfo.detailImage}}" wx:key="outerIndex" wx:for-item="outerItem" wx:for-index="outerIndex">
+      <view class="content-desc">{{ outerItem.key}}</view>
+     <block wx:for="{{outerItem.list}}"  wx:for-item="innerItem" wx:for-index="innerIndex" wx:key="innerIndex">
+       <image src="{{innerItem}}" mode="widthFix" class="content-image" ></image>
+     </block>
+    </block>
+  </view>
+
+</view>
+
+
+

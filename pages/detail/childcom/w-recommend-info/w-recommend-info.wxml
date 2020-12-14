@@ -1,0 +1,8 @@
+<!--pages/detail/childcom/w-recommend-info/w-recommend-info.wxml-->
+<!-- <text>pages/detail/childcom/w-recommend-info/w-recommend-info.wxml</text> -->
+<view class="recommend">
+  <view class="content">商品推荐</view>
+ <view>
+  <w-goods goods="{{recommendInfo}}"></w-goods>
+ </view>
+</view>

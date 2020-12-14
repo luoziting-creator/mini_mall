@@ -1,0 +1,27 @@
+<!--pages/detail/childcom/w-detail-comment/w-detail-comment.wxml-->
+<!-- <text>pages/detail/childcom/w-detail-comment/w-detail-comment.wxml</text> -->
+<view class="comment-info">
+  <view class="header">
+    <view class="comment">用户评价</view>
+    <view class="more">更多</view>
+  </view>
+  <view class="content">
+    <view class="user">
+      <image src="{{commentInfo.user.avatar}}"></image>
+      <text>{{commentInfo.user.uname}}</text>
+    </view>
+    <view class="comment">{{commentInfo.content}}</view>
+    <view class="other-info">
+      <wxs module="filter" src="../../../../utils/filter.wxs"></wxs>
+      <text class="infoTimes">{{ filter.formatTime(toString.commentInfo.created,'yyyy-MM-dd hh:mm:ss')}}</text>
+      <text class="infoStyle">{{commentInfo.style}}</text>
+    </view>
+    <view class="picture">
+      <block wx:for="{{commentInfo.images}}" wx:key="index">
+        <image src="{{item}}" mode="widthFix"></image>
+      </block>
+
+    </view>
+  </view>
+
+</view>

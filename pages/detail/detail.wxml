@@ -1,0 +1,14 @@
+<!--pages/detail/detail.wxml-->
+<!-- <text>pages/detail/detail.wxml</text> -->
+<scroll-view scroll-y class="detail">
+  <swiper class="d-swiper" list="{{topImages}}"></swiper>
+  <w-base-info baseInfo="{{baseInfo}}"></w-base-info>
+  <w-shop-info shopInfo="{{shopInfo}}"></w-shop-info>
+  <w-detail-info detailInfo="{{detailInfo}}"></w-detail-info>
+  <w-params-info paramsInfo="{{paramsInfo}}"></w-params-info>
+  <w-detail-comment commentInfo="{{commentInfo}}"></w-detail-comment>
+  <w-recommend-info recommendInfo="{{recommendInfo}}"></w-recommend-info>
+  <w-backtop wx:if="{{showTop}}"></w-backtop>
+  
+</scroll-view>
+<w-bottom-bar bind:addCart="addCart"></w-bottom-bar>

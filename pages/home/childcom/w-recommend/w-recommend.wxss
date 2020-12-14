@@ -1,0 +1,18 @@
+/* pages/home/childcom/w-recommend/w-recommend.wxss */
+.recommend {
+  padding: 40rpx 20rpx;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  border-bottom: 12rpx solid #eee;
+}
+.recommend-item image {
+  width: 160rpx;
+  height: 160rpx;
+ 
+}
+.recommend-title {
+  margin-top: 10rpx;
+  font-size: 30rpx;
+  color: #555;
+}

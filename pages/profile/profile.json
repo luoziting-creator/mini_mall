@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "w-header":"./childcom/w-header/w-header",
+    "w-info":"./childcom/w-info/w-info",
+    "w-list-view":"./childcom/w-list-view/w-list-view"
+  },
+  "navigationBarTitleText": "我的档案"
+}

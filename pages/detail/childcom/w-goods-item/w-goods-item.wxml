@@ -1,0 +1,13 @@
+<!--pages/detail/childcom/w-goods-item/w-goods-item.wxml-->
+<!-- <text>pages/detail/childcom/w-goods-item/w-goods-item.wxml</text> -->
+<view class="goods-view" >
+  <image src="{{item.image}}" mode="widthFix" class="image" class="goods-image"></image>
+  <view class="item-desc">
+    <view class="title">{{item.title}}</view>
+    <view class="info">
+      <text class="price">￥{{item.price}}</text>
+      <image src="../../../../assets/images/common/favor.png" class="icon1"></image>
+      <text class="collect">{{item.cfav}}</text>
+    </view>
+  </view>
+</view>
