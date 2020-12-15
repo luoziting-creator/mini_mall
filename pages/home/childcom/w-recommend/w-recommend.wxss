@@ -5,6 +5,7 @@
   justify-content: space-between;
   text-align: center;
   border-bottom: 12rpx solid #eee;
+ 
 }
 .recommend-item image {
   width: 160rpx;
