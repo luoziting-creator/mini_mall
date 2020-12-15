@@ -38,4 +38,7 @@
   font-size: 32rpx;
   margin: 40rpx 0 20rpx 0;
 }
+.content-image {
+  width: 100%;
+}
 
