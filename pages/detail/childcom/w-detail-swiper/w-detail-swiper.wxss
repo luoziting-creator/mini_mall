@@ -1,0 +1,10 @@
+/* pages/detail/childcom/w-detail-swiper/w-detail-swiper.wxss */
+swiper {
+  width: 100%;
+  height: calc(65vw * 618 / 412);
+  text-align: center;
+}
+image {
+  width: 100%;
+ 
+}
